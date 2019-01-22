@@ -1,0 +1,29 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: http://docs.platformio.org/page/plus/debugging.html
+// Configuration: http://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PlatformIO Debugger",
+            "executable": "/home/janik/Projekte/2018_ITGProjekt_Controlino/Arduino/TCP_Test/171214-190234-megaatmega2560/.pioenvs/megaatmega2560/firmware.elf",
+            "toolchainBinDir": "/home/janik/.platformio/packages/toolchain-atmelavr/bin",
+            "preLaunchTask": "PlatformIO: Pre-Debug",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PlatformIO Debugger (Skip Pre-Debug)",
+            "executable": "/home/janik/Projekte/2018_ITGProjekt_Controlino/Arduino/TCP_Test/171214-190234-megaatmega2560/.pioenvs/megaatmega2560/firmware.elf",
+            "toolchainBinDir": "/home/janik/.platformio/packages/toolchain-atmelavr/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

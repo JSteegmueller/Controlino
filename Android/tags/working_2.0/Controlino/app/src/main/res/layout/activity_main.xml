@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/appBarLayoutMain"
+                layout="@layout/main_toolbar" />
+        </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:id="@+id/textViewArduinoType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/arduinoType"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewArduinoAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewPins"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="2" />
+
+        <EditText
+            android:id="@+id/editTextIp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/ip_address"
+            android:inputType="textNoSuggestions" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonIp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/setIp"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/connect" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonArduinoType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/getArduinoType"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewLocalIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="DeviceIp" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu" />
+
+</android.support.v4.widget.DrawerLayout>

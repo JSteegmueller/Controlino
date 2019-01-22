@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\Huy\\.platformio\\penv\\Scripts;C:\\Users\\Huy\\.platformio\\penv;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;c:\\borland\\CBUILD~1\\Projects\\Bpl;c:\\borland\\CBUILD~1\\Bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\LLVM\\bin;D:\\Programme\\Git\\cmd;D:\\Programme\\Putty\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Huy\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Huy\\AppData\\Local\\atom\\bin;;C:\\Program Files\\Microsoft VS Code Insiders\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;c:\\borland\\CBUILD~1\\Projects\\Bpl;c:\\borland\\CBUILD~1\\Bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\LLVM\\bin;D:\\Programme\\Git\\cmd;D:\\Programme\\Putty\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Huy\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Huy\\AppData\\Local\\atom\\bin;;C:\\Program Files\\Microsoft VS Code Insiders\\bin;C:\\Program Files\\Microsoft VS Code\\bin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "C_Cpp.dimInactiveRegions": false,
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/janik/.platformio/penv/bin:/home/janik/.platformio/penv:/home/janik/bin:/home/janik/.local/bin:/home/janik/bin:/home/janik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/jsteegmuller/.platformio/penv/bin:/Users/jsteegmuller/.platformio/penv:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jsteegmuller/Library/Android/sdk/build-tools/27.0.3 :/Users/jsteegmuller/Libary/Android/sdk:/Users/jsteegmuller/Library/Android/sdk/platform-tools:/Applications/Wireshark.app/Contents/MacOS",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}

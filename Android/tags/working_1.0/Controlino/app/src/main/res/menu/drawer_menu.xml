@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_start"
+        android:title="@string/drawer_start" />
+    <item
+        android:id="@+id/drawer_setPins"
+        android:title="@string/drawer_setPins" />
+    <item
+        android:id="@+id/drawer_changeArduino"
+        android:title="@string/drawer_changeArduino" />
+    <item
+        android:id="@+id/drawer_settings"
+        android:title="@string/drawer_settings" />
+</menu>
